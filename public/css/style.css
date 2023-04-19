@@ -1,0 +1,163 @@
+.ico-messenger img,
+h4 {
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 90px;
+  height: 90px;
+  z-index: 200;
+}
+.navbar {
+  box-shadow: 1px 1px 3px rgba(121, 116, 116, 0.3);
+}
+/*Tao chu nhap nhay*/
+@-webkit-keyframes my {
+  0% {
+    color: rgb(240, 12, 12);
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: rgb(240, 12, 12);
+  }
+}
+@-moz-keyframes my {
+  0% {
+    color: rgb(240, 12, 12);
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: rgb(240, 12, 12);
+  }
+}
+@-o-keyframes my {
+  0% {
+    color: rgb(240, 12, 12);
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: rgb(240, 12, 12);
+  }
+}
+@keyframes my {
+  0% {
+    color: rgb(240, 12, 12);
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: rgb(240, 12, 12);
+  }
+}
+.twinkle {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-animation: my 700ms infinite;
+  -moz-animation: my 700ms infinite;
+  -o-animation: my 700ms infinite;
+  animation: my 700ms infinite;
+  bottom: 1px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d570ee;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* footer*/
+.btn_yellow {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "SVN-GothamBold";
+  border-radius: 20px;
+  background: #cf9a2c;
+  transition: all 0.3s;
+}
+
+.form-control {
+  border-radius: 20px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-title {
+  color: #cf9a2c;
+  font-size: 20px;
+}
+
+.box-footer {
+  padding: 30px 0 30px;
+  background: #f7f7f7;
+}
+
+.ft-page {
+  padding: 20px 0 20px;
+  position: relative;
+  background: #eeeeee;
+  color: #6a6a6a;
+  font-size: 14px;
+  text-align: center;
+}
+
+.logo {
+  border-radius: 50%;
+}
+.text-contact {
+  color: #cf9a2c;
+  font-size: 28px;
+}
+
+.nav-h {
+  background: #cf9a2c;
+}
+/* tin tuc */
+span {
+  display: block;
+  line-height: 6px;
+}
+
+a span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  line-height: 220px;
+  color: #fff;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+  font-size: 24px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+  background: rgba(207, 154, 44, 0.6);
+  -moz-transition: opacity 0.3s linear;
+  -o-transition: opacity 0.3s linear;
+  -ms-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+}
+
+a:hover span {
+  opacity: 1;
+  filter: alpha(opacity=99);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+}

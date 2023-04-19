@@ -1,0 +1,17 @@
+{
+  "name": "admin/nhakhoa",
+  "autoload": {
+    "psr-4": {
+      "Admin\\Nhakhoa\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "HuynhVanDinh",
+      "email": "dinh0375751606@gmail.com"
+    }
+  ],
+  "require": {
+    "twilio/sdk": "^6.18"
+  }
+}

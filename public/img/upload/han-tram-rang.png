@@ -1,0 +1,814 @@
+<!DOCTYPE html><html>
+<head>
+    <title>Hàn trám răng thẩm mỹ - Giải pháp hiệu quả cho răng khuyết điểm</title><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hàn trám răng thẩm mỹ - Giải pháp hiệu quả cho răng khuyết điểm">
+<meta property="og:description" content="">
+<meta property="og:image" content="/public/files/upload/default/medium/images/dich-vu/han-tram-rang"><link href="/public/files/upload/default/images/he-thong/favicon.png" rel="icon" type="image/x-icon">
+<link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/public/template/frontend/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/public/template/frontend/css/fontawesome.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/public/template/frontend/plugins/fancybox/source/jquery.fancybox.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/public/template/frontend/plugins/fancybox/source/jquery.fancybox-thumbs.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/public/template/frontend/plugins/bxslider/jquery.bxslider.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/public/template/frontend/css/font.css?v=03042023084257" media="screen" rel="stylesheet" type="text/css">
+<link href="/public/template/frontend/css/style.css?v=03042023084257" media="screen" rel="stylesheet" type="text/css">    <meta name="facebook-domain-verification" content="qdlaa51c20izrboeov4ulcapw3xx80" />
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '835736617834943');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=835736617834943&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P3BBXGG');</script>
+<!-- End Google Tag Manager --></head>
+<body class="body">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49393751-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-49393751-2');
+</script>
+
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v8.0'
+          });
+        };
+
+        (function(d, s, id) {
+        if(screen.width < 900) return false;
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="728036117400680"
+  theme_color="#eac470"
+  logged_in_greeting="Bác sĩ nha khoa có thể giúp gì cho bạn?"
+  logged_out_greeting="Bác sĩ nha khoa có thể giúp gì cho bạn?">
+      </div>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v5.0'
+        });
+    };
+
+    (function(d, s, id) {
+        if(screen.width < 900) return false;
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v7.0'
+          });
+        };
+
+        (function(d, s, id) {
+        if(screen.width < 900) return false;
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3BBXGG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->    
+    <div class="box_top hidden-xs">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+            	<div class="hotline">
+            		<span class="item">Hà Nội: <a href="tel:0966688234">0966.688.234</a></span>
+            		<span class="item">TP.Hồ Chí Minh: <a href="tel:0966688234">0966 688 234</a></span>
+            	</div>
+        	</div>
+            <div class="col-sm-6">
+                <div class="social">
+                    <span>Tìm kiếm: </span>
+                    <a href="javascript:;" onclick="$('.box_search').toggleClass('show'); $('.box_search input').focus();"><i class="fas fa-search"></i></a>
+                    <a href="https://www.facebook.com/nhakhoaquoctewinsmile" target="_blank"><img src="/public/template/frontend/img/icon_2.png"></a>
+                    <a href="" target="_blank"><img src="/public/template/frontend/img/icon_3.png"></a>
+                    <a href="https://www.youtube.com/channel/UCuhJRuawEhoFPDMZkzts7og" target="_blank"><img src="/public/template/frontend/img/icon_4.png"></a>
+                </div>
+                <div class="open">
+                    <span class="item">Giờ mở cửa: <span>8h00 - 20h00</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="box_search">
+            <form action="/search"><div class="form-group"><div class="input-group"><input name="keyword" type="text" class="form-control" placeholder="Tìm kiếm..." value=""><div class="input-group-addon"><button type="submit"><i class="fas fa-search"></i></button></div></div></div></form>
+        </div>
+    </div>
+</div>
+<div class="box_header" id="box_header">
+    <div class="container">
+        <div class="box_content">
+            <div class="item menu"><div class="box_menuMain2 left">
+                    <ul><li class="dropdown" data-level="2"><a href="/rang-su-tham-my" target="_self" class=""><span class="title">Răng sứ</span></a><div class="dropdown_wrap"><ul><li class="dropdown" data-level="3"><a href="/dan-su" target="_self" class=""><span class="title">Dán sứ</span></a><div class="dropdown_wrap"><ul><li data-level="4" data-max="3" data-key="3"><a href="/dan-su-veneer-lisi" target="_self" class=""><span class="title">Dán sứ Veneer Lisi</span></a></li><li data-level="4" data-max="3" data-key="4"><a href="/dan-su-veneer-emax" target="_self" class=""><span class="title">Dán sứ Veneer Emax Laminate</span></a></li><li data-level="4" data-max="3" data-key="5"><a href="/dan-su-suon-ziconia" target="_self" class=""><span class="title">Dán sứ sườn Ziconia</span></a></li></ul></div></li><li class="dropdown" data-level="3"><a href="/boc-su" target="_self" class=""><span class="title">Bọc sứ</span></a><div class="dropdown_wrap"><ul><li data-level="4" data-max="3" data-key="7"><a href="/rang-su-orodent" target="_self" class=""><span class="title">Răng sứ Orodent</span></a></li><li data-level="4" data-max="3" data-key="8"><a href="/rang-su-biodiamond" target="_self" class=""><span class="title">Răng sứ Biodiamond</span></a></li><li data-level="4" data-max="3" data-key="9"><a href="/rang-su-lava-3m" target="_self" class=""><span class="title">Răng sứ Lava 3M</span></a></li><li data-level="4" data-max="3" data-key="10"><a href="/rang-su-nacera-q3" target="_self" class=""><span class="title">Răng sứ Nacera Q3</span></a></li><li data-level="4" data-max="3" data-key="11"><a href="/rang-su-nacera" target="_self" class=""><span class="title">Răng sứ Nacera</span></a></li><li data-level="4" data-max="3" data-key="12"><a href="/rang-su-ht-smile" target="_self" class=""><span class="title">Răng sứ HT Smile</span></a></li><li data-level="4" data-max="3" data-key="13"><a href="/rang-su-ceramill" target="_self" class=""><span class="title">Răng sứ Ceramill</span></a></li><li data-level="4" data-max="3" data-key="14"><a href="/rang-su-venus" target="_self" class=""><span class="title">Răng sứ Venus</span></a></li><li data-level="4" data-max="3" data-key="15"><a href="/rang-su-katana" target="_self" class=""><span class="title">Răng sứ Katana</span></a></li><li data-level="4" data-max="3" data-key="16"><a href="https://winsmile.vn/boc-rang-su" target="_self" class=""><span class="title">Bọc răng sứ</span></a></li></ul></div></li></ul></div></li><li class="dropdown" data-level="2"><a href="/chinh-nha" target="_self" class=""><span class="title">Niềng răng</span></a><div class="dropdown_wrap"><ul><li data-level="3" data-max="3" data-key="18"><a href="https://winsmile.vn/nieng-rang" target="_self" class=""><span class="title">Niềng răng</span></a></li><li data-level="3" data-max="3" data-key="19"><a href="/nieng-rang-mac-cai-kim-loai" target="_self" class=""><span class="title">Niềng răng mắc cài kim loại</span></a></li><li data-level="3" data-max="3" data-key="20"><a href="/nieng-rang-mac-cai-kim-loai-tu-buoc" target="_self" class=""><span class="title">Niềng răng mắc cài kim loại tự buộc</span></a></li><li data-level="3" data-max="3" data-key="21"><a href="/nieng-rang-mac-cai-su" target="_self" class=""><span class="title">Niềng răng mắc cài sứ</span></a></li><li data-level="3" data-max="3" data-key="22"><a href="/nieng-rang-mac-cai-su-tu-buoc" target="_self" class=""><span class="title">Niềng răng mắc cài sứ tự buộc</span></a></li><li data-level="3" data-max="3" data-key="23"><a href="/nieng-rang-mac-cai-pha-le" target="_self" class=""><span class="title">Niềng răng mắc cài Pha Lê</span></a></li><li data-level="3" data-max="3" data-key="24"><a href="/nieng-rang-mat-luoi" target="_self" class=""><span class="title">Niềng răng mặt lưỡi</span></a></li><li data-level="3" data-max="3" data-key="25"><a href="/nieng-rang-invisalign-tham-my" target="_self" class=""><span class="title">Niềng răng invisalign thẩm mỹ</span></a></li></ul></div></li><li class="dropdown" data-level="2"><a href="/trong-rang" target="_self" class=""><span class="title">Trồng răng</span></a><div class="dropdown_wrap"><ul><li data-level="3" data-max="3" data-key="27"><a href="/trong-rang-implant-straumann" target="_self" class=""><span class="title">Trồng răng Implant Straumann</span></a></li><li data-level="3" data-max="3" data-key="28"><a href="/trong-rang-implant-dentium-usa" target="_self" class=""><span class="title">Trồng răng Implant Dentium USA</span></a></li><li data-level="3" data-max="3" data-key="29"><a href="/trong-rang-implant-osstem-tekka-global-d" target="_self" class=""><span class="title">Trồng răng Implant Tekka Global D</span></a></li><li data-level="3" data-max="3" data-key="30"><a href="/trong-rang-implant-osstem" target="_self" class=""><span class="title">Trồng răng Implant Osstem</span></a></li><li data-level="3" data-max="3" data-key="31"><a href="/trong-rang-implant-biotem" target="_self" class=""><span class="title">Trồng răng Implant Biotem</span></a></li><li data-level="3" data-max="3" data-key="32"><a href="/trong-rang-implant-toan-ham-all-on-six" target="_self" class=""><span class="title">Implant toàn hàm All-on-six</span></a></li><li data-level="3" data-max="3" data-key="33"><a href="/trong-rang-implant-toan-ham-all-on-four" target="_self" class=""><span class="title">Implant toàn hàm All-on-four</span></a></li><li data-level="3" data-max="3" data-key="34"><a href="/cau-rang-su" target="_self" class=""><span class="title">Cầu răng sứ</span></a></li></ul></div></li><li class="dropdown" data-level="2"><a href="/nha-khoa-benh-ly" target="_self" class=""><span class="title">bệnh lý</span></a><div class="dropdown_wrap"><ul><li data-level="3" data-max="3" data-key="36"><a href="/quy-trinh-tham-kham-tu-van-tai-nha-khoa-win-smile" target="_self" class=""><span class="title">Quy trình thăm khám</span></a></li><li data-level="3" data-max="3" data-key="37"><a href="/tay-trang-rang" target="_self" class=""><span class="title">Tẩy trắng răng</span></a></li><li data-level="3" data-max="3" data-key="38"><a href="/nho-rang-khon" target="_self" class=""><span class="title">Nhổ răng khôn</span></a></li><li data-level="3" data-max="3" data-key="39"><a href="/han-tram-rang" target="_self" class="active"><span class="title">Hàn trám răng</span></a></li><li data-level="3" data-max="3" data-key="40"><a href="/dieu-tri-tuy-rang" target="_self" class=""><span class="title">Điều trị tủy răng</span></a></li><li data-level="3" data-max="3" data-key="41"><a href="/dieu-tri-rang-sau" target="_self" class=""><span class="title">Điều trị răng sâu</span></a></li><li data-level="3" data-max="3" data-key="42"><a href="/dieu-tri-nha-chu" target="_self" class=""><span class="title">Điều trị nha chu</span></a></li><li data-level="3" data-max="3" data-key="43"><a href="/dieu-tri-cuoi-ho-loi" target="_self" class=""><span class="title">Điều trị cười hở lợi</span></a></li></ul></div></li></ul>
+                </div></div>
+            <div class="item logo"><a href="/"><img src="/public/files/upload/default/images/he-thong/logo.png"></a></div>
+            <div class="item menu"><div class="box_menuMain2 right">
+                    <ul><li data-level="2" data-max="1" data-key="1"><a href="/ve-winsmile" target="_self" class=""><span class="title">Về WinSmile</span></a></li><li data-level="2" data-max="1" data-key="2"><a href="/tin-tuc-su-kien" target="_self" class=""><span class="title">Sự kiện / Blog</span></a></li><li data-level="2" data-max="1" data-key="3"><a href="/kien-thuc" target="_self" class=""><span class="title">Kiến thức Nha Khoa</span></a></li><li data-level="2" data-max="1" data-key="4"><a href="/lien-he" target="_self" class=""><span class="title">Liên hệ</span></a></li></ul>
+                </div></div>
+        </div>
+    </div>
+    <a href="/" class="logo_mobile"><img src="/public/files/upload/default/images/he-thong/logo-white.png"></a>
+    <a href="javascript:;" class="toggle" id="menu_toggle">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </a>
+</div>
+<script>
+</script>
+    <div class="container">
+        <div class="wrapper">
+            <div class="row">
+            	<div class="col-sm-9 col-sm-push-3">
+              		<div class="box_module">
+	<div class="box_content">
+        <div class="product_content">
+                            <div class="container"><div class="row">
+                                    <div class="col-sm-6"><div class="content"><h1 style="text-align:justify">Sự khác nhau giữa hàn răng và trám răng? Cách phân biệt</h1>
+
+<p dir="ltr">Trên thực tế, hàn trám răng không có sự khác biệt. Hai thuật ngữ này đều chỉ một phương pháp phục hình thẩm mỹ, giúp khôi phục, bù đắp phần mô răng bị khuyết do nhiều nguyên nhân gây nên như sâu răng, tai nạn gây sứt mẻ&hellip;<br />
+<br />
+Mục đích của việc hàn trám răng là khôi phục kích thước, cũng như hình dáng răng ban đầu, từ đó đảm bảo chức năng ăn nhai và thẩm mỹ cho răng. Bên cạnh đó, hàn trám răng còn có ý nghĩa quan trọng đó là ngăn ngừa bệnh lý răng miệng, điển hình như sâu răng.<br />
+<br />
+Hiện nay, phương pháp phục hình thẩm mỹ này được nhiều người lựa chọn bởi không chỉ khắc phục khuyết điểm hàm răng mà còn an toàn, không phải mài cùi, không ảnh hưởng đến cấu trúc của răng...</p>
+
+<p>&nbsp;</p>
+</div></div>
+                                    <div class="col-sm-6"><div class="image"><img src="/public/files/upload/default/images/dich-vu-nha-khoa/Han-Tram-Rang/1.jpg"></div></div>
+                                </div></div>   
+                         </div><div class="product_content" style="background-color: #f7f7f7;">
+                            <div class="container"><div class="row">
+                                    <div class="col-sm-6"><div class="image"><img src="/public/files/upload/default/images/dich-vu-nha-khoa/Han-Tram-Rang/2.jpg"></div></div>
+                                    <div class="col-sm-6"><div class="content"><h2 style="text-align:justify">Lợi ích và nhược điểm sau khi hàn trám răng</h2>
+
+<p style="text-align:justify"><strong><span style="font-size:18px">Ưu điểm</span></strong><br />
+Hàn và trám răng mang đến nhiều ưu điểm nổi bật, cụ thể như sau:<br />
+<br />
+<strong>Cải thiện chức năng ăn nhai</strong><br />
+Hàn trám răng sử dụng vật liệu chuyên dụng cao cấp mang đến khả năng chịu lực tốt, giúp nhai và cảm biến thức ăn tốt. Khi hàm trám răng, bạn cũng không phải lo lắng đến vấn đề liệu có bị ê buốt, khó chịu khi đồ ăn cay, nóng hay đồ lạnh hay không?<br />
+<br />
+<strong>Đảm bảo tính thẩm mỹ</strong><br />
+Vật liệu trám có màu sắc tự nhiên giống như màu răng thật, kết hợp với kỹ thuật tạo hình tỉ mỉ giúp vết hàn trám thẩm mỹ hơn, giúp người đối diện khó phát hiện ra răng bạn đã phục hình. Do đó, khi răng bị sứt mẻ, sâu răng, bạn có thể lựa chọn phương pháp này để tự tin giao tiếp.<br />
+<br />
+<strong>Bảo vệ tối đa răng thật</strong><br />
+Nếu như bọc răng sứ, bác sĩ sẽ tiến hành mài cùi răng thật thì hàn trám giúp bảo vệ tối đa men răng và ngà, từ đó tránh được sự tấn công của vi khuẩn gây bệnh lý răng miệng.<br />
+<br />
+<strong>Hỗ trợ điều trị bệnh lý răng miệng</strong><br />
+Khi răng bị sâu, sứt mẻ tạo lỗ hổng khiến vi khuẩn tấn công, &ldquo;đe dọa&rdquo; đến tủy răng. Do vậy, việc hàn trám răng có tác dụng là lớp bảo vệ ngăn ngừa vi khuẩn tấn công, tránh các bệnh lý sâu răng, hôi miệng, viêm nha chu&hellip;<br />
+<br />
+<strong>An toàn với sức khỏe răng miệng</strong><br />
+Vật liệu hàn trám được đánh giá là an toàn với môi trường khoang miệng, không gây kích ứng, dị ứng, do đó bạn có thể yên tâm thực hiện.<br />
+<br />
+<strong>Chi phí hợp lý</strong><br />
+So với các phương pháp phục hình thẩm mỹ, hàn trám răng có chi phí thấp nhất, tuy nhiên lại cho tuổi thọ cao khá cao (khoảng từ 7-10 năm).<br />
+<br />
+<span style="font-size:18px"><strong>Nhược điểm</strong></span></p>
+
+<ul>
+	<li style="text-align:justify">Hàn răng và trám răng cũng tồn tại một số nhược điểm như sau:</li>
+	<li style="text-align:justify">Không áp dụng được cho các trường hợp răng sứt mẻ, có lỗ sâu lớn.</li>
+	<li style="text-align:justify">Miếng trám có thể bị đổi màu sau vài năm.</li>
+	<li style="text-align:justify">Bị bong, tróc khi ăn nhai đồ cứng, lực tác động mạnh</li>
+	<li style="text-align:justify">Với các vật liệu trám như vật liệu Amalgam sẽ không tương đồng với màu sắc răng thật gây mất thẩm mỹ.</li>
+</ul>
+</div></div>
+                                </div></div>   
+                         </div><div class="product_content" style="background-color: #ffffff;">
+                            <div class="container"><div class="row">
+                                    <div class="col-sm-6"><div class="content"><h2 dir="ltr">Những trường hợp cần hàm trám răng</h2>
+
+<p dir="ltr">Hàn trám răng có thể thực hiện trong một số trường hợp sau:<br />
+<br />
+<strong>Răng sâu</strong>: Sâu răng gây nên do vi khuẩn phát triển, đục khoét. Việc không xử lý sớm có thể ảnh hưởng đến tủy răng, lây lan sang các răng lân cận. Áp dụng hàn trám là cách khắc phục răng sâu nhanh chóng và tiết kiệm.</p>
+
+<p><strong>Răng sứt, mẻ</strong>: Sự cố do tai nạn, va đập có thể khiến răng bị sứt mẻ, gãy vỡ. Để khôi phục hình dáng ban đầu cũng như chức năng ăn nhai, thực hiện hàn trám là giải pháp tối ưu.<br />
+<br />
+<strong>Răng khuyết điểm</strong>: Răng của bạn gặp tình trạng thưa, đổi màu do tác động bên ngoài. Sử dụng hàn trám răng giúp lấy lại thẩm mỹ, đảm bảo tiết kiệm chi phí.<br />
+<br />
+<strong>Mòn răng</strong>: Tác động của bàn chải đánh răng lông cứng hoặc theo thời gian khiến men răng bị mòn, làm lộ lớp ngà răng. Trám răng giúp khắc phục tình trạng này, giúp răng không bị nhạy cảm khi ăn đồ nóng, lạnh.</p>
+
+<p dir="ltr">&nbsp;</p>
+</div></div>
+                                    <div class="col-sm-6"><div class="image"><img src="/public/files/upload/default/images/dich-vu-nha-khoa/Han-Tram-Rang/3.jpg"></div></div>
+                                </div></div>   
+                         </div><div class="product_content" style="background-color: #f7f7f7;">
+                            <div class="container"><div class="row">
+                                    <div class="col-sm-6"><div class="image"><img src="/public/files/upload/default/images/dich-vu-nha-khoa/Han-Tram-Rang/4.jpg"></div></div>
+                                    <div class="col-sm-6"><div class="content"><h2 dir="ltr">Các hình thức hàn trám răng phổ biến hiện nay</h2>
+
+<p dir="ltr">Hiện nay, có đa dạng các loại vật liệu hàn trám, mỗi loại sẽ có những đặc tính riêng:<br />
+&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Hàn trám bằng vật liệu Amalgam</strong></span><br />
+Amalgam là hỗn hợp gồm được tạo nên từ các phân tử kim loại như bạc, kẽm, đồng, thiếc và thủy ngân (chiếm tới 50%).<br />
+<br />
+<strong>Ưu điểm:</strong></p>
+
+<ul>
+	<li>Giá thành hợp lý, phù hợp với túi tiền của nhiều người.</li>
+	<li>Trám Amalgam không đòi hỏi kỹ thuật cao, thời gian thực hiện nhanh chóng.</li>
+	<li>Kỹ thuật hàn trám này cho độ bền cao, trung bình từ 10-15 năm.<br />
+	&nbsp;</li>
+</ul>
+
+<p><strong>Nhược điểm:</strong></p>
+
+<ul>
+	<li>Hạn chế về tính thẩm mỹ do màu sắc trám không tương đồng với màu sắc răng.</li>
+</ul>
+
+<p><br />
+<span style="font-size:18px"><strong>Hàn trám răng bằng Composite</strong></span><br />
+Trám răng bằng vật liệu Composite được ưa chuộng hiện nay bởi tính thẩm mỹ cao. Bên cạnh đó, phương pháp này còn mang đến những ưu điểm khác như:<br />
+Độ bền cao: Thông thường, hàn trám bằng Composite sẽ cho tuổi thọ từ 6-12 năm. Tuy nhiên, bạn cũng cần tuân thủ nghiêm ngặt chế độ chăm sóc theo chỉ định của bác sĩ.<br />
+Bảo vệ răng tốt: Với khả năng chịu lực, chống mòn cao, trám Composita giúp bảo vệ răng chắc khỏe.<br />
+<br />
+<strong>Nhược điểm:</strong></p>
+
+<ul>
+	<li>Đây là phương pháp phức tạp, đòi hỏi cần có kỹ thuật cao, do vậy sẽ cần nhiều thời gian thực hiện.</li>
+	<li>Sau một thời gian sử dụng, răng trám có khả năng bị nhiễm màu.</li>
+	<li>So với các phương pháp trám răng khác, sử dụng vật liệu trám Composita có chi phí cao hơn.<br />
+	&nbsp;</li>
+</ul>
+
+<p><span style="font-size:18px"><strong>Hàn trám răng bằng sứ</strong></span><br />
+Hiện nay hàn trám răng bằng vật liệu sứ inlay &ndash; onlay cũng được lựa chọn nhiều, đặc biệt với những trường hợp răng sứ mẻ lớn.<br />
+<br />
+<strong>Ưu điểm:</strong></p>
+
+<ul>
+	<li>Màu sắc tương đồng với màu răng thật, đảm bảo độ tự nhiên,</li>
+	<li>Vật liệu sứ cũng có khả năng chống bám bẩn, chống mài mòn tốt.</li>
+	<li>Không ảnh hưởng đến cấu trúc răng, bảo tồn tối đa răng thật.</li>
+	<li>Thời gian sử dụng của hàn trám bằng sứ lên đến 10 năm.<br />
+	&nbsp;</li>
+</ul>
+
+<p><strong>Nhược điểm:</strong></p>
+
+<ul>
+	<li>Giá thành cao hơn so với trám răng bằng Composite và Amalgam</li>
+	<li>Vật liệu khá giòn, dễ vỡ do đó cần cẩn trọng khi ăn uống.<br />
+	&nbsp;</li>
+</ul>
+
+<p><span style="font-size:18px"><strong>Hàn trám răng bằng kim loại quý</strong></span></p>
+
+<p dir="ltr">Vật liệu kim loại quý được áp dụng hàn trám răng có thể là vàng hoặc hợp chất titan.<br />
+<br />
+<strong>Ưu điểm:</strong></p>
+
+<ul dir="ltr">
+	<li>Có độ bền cao nhất so với các phương pháp hàn trám kể trên</li>
+	<li>Bảo vệ răng tốt, cho khả năng ăn nhai tối ưu mà không lo bị mài mòn.</li>
+	<li>Trám răng bằng kim loại quý có độ khít cao, hạn chế được vi khuẩn lọt vào gây bệnh lý răng miệng.<br />
+	&nbsp;</li>
+</ul>
+
+<p><strong>Nhược điểm:</strong></p>
+
+<ul>
+	<li>Bên cạnh đòi hỏi bác sĩ thực hiện tay nghề cao, hàn trám bằng kim loại quý còn có chi phí khá đắt đỏ.</li>
+	<li>Màu khác biệt so với răng thật, do vậy ảnh hưởng tới tính thẩm mỹ.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<ul>
+</ul>
+</div></div>
+                                </div></div>   
+                         </div><div class="product_content" style="background-color: #ffffff;">
+                            <div class="container"><div class="row">
+                                    <div class="col-sm-6"><div class="content"><h2 dir="ltr">Quy trình hàn trám răng diễn ra như thế nào?</h2>
+
+<p>Hàn trám răng giúp tiết kiệm chi phí nhưng vẫn khắc phục được tình trạng răng tổn thương, từ đó khôi phục hình dáng ban đầu.<br />
+Quy trình hàn trám răng tiêu chuẩn sẽ diễn ra trong&hellip; bước như sau:<br />
+<br />
+<strong>Bước 1: Thăm khám tổng quát</strong><br />
+Đầu tiên, bác sĩ sẽ thăm khám răng miệng tổng quát để xác định mức độ tổn thương và số lượng răng cần trám.<br />
+Ngoài ra, nếu xác định mức độ tổn thương nặng, bác sĩ sẽ chỉ định chụp phim X-quang để xác định có ảnh hưởng đến tủy răng hay không?<br />
+<br />
+<strong>Bước 2: Nạo vét vùng răng sâu</strong><br />
+Bác sĩ sẽ tiến hành vệ sinh răng miệng, loại bỏ phần mô bị hư hại, mài vát men răng để quá trình hàn trám diễn ra thuận lợi.<br />
+Đây là khâu khá quan trọng, bởi nếu không vệ sinh kỹ lưỡng, nạo vét hết phần hư hại sẽ tạo điều kiện cho vi khuẩn phát triển, khiến việc điều trị không đạt hiệu quả.<br />
+<br />
+<strong>Bước 3: Thực hiện hàn trám răng</strong><br />
+Sau khi đo mẫu răng thật, xác định kích thước và hình dáng cần tạo khoang trám, bác sĩ sẽ tạo hình chất trám và lấp đầy khoảng trống trên bề mặt răng. Vật liệu trám thường có dạng lỏng và sẽ khô sau khoảng 2h. Nhưng với công nghệ hiện đại sử dụng ánh sáng Laser thì miếng trám sẽ khô chỉ sau 40s.<br />
+Bác sĩ tiếp tục kiểm tra lại khớp cắn, điều chỉnh sao cho vị trí hàm có độ bóng, trong tự nhiên như răng thật.<br />
+<br />
+<strong>Bước 4. Hướng dẫn chăm sóc răng miệng</strong><br />
+Sau khi hoàn tất hàn trám răng, bạn sẽ được bác sĩ dặn dò chu đáo về cách chăm sóc, vệ sinh răng miệng cũng như chế độ ăn uống hợp lý để duy trì độ bền và đem lại hiệu quả cao.<br />
+Ngoài ra tại nha khoa Win Smile các bác sĩ sẽ hẹn lịch tái khám sau khi hàn trám. Thông thường khoảng thời gian tái khám là trong khoảng 6 tháng/lần.</p>
+
+<p>&nbsp;</p>
+</div></div>
+                                    <div class="col-sm-6"><div class="image"><img src="/public/files/upload/default/images/dich-vu-nha-khoa/Han-Tram-Rang/5.jpg"></div></div>
+                                </div></div>   
+                         </div><div class="product_content" style="background-color: #f7f7f7;">
+                            <div class="container"><div class="row">
+                                    <div class="col-sm-6"><div class="image"><img src="/public/files/upload/default/images/dich-vu-nha-khoa/Han-Tram-Rang/6.jpg"></div></div>
+                                    <div class="col-sm-6"><div class="content"><h2 dir="ltr">Lưu ý sau khi hàn trám răng</h2>
+
+<p>Để răng hàn trám bền đẹp theo thời gian, bạn cần tuân thủ những quy tắc sau:</p>
+
+<ul>
+	<li>2 giờ sau hàn trám răng, bệnh nhân không được ăn nhai bất kỳ thứ gì. Bản chất của chất liệu hàn trám ở dạng dẻo cần có thời gian để đông đặc, cứng chắc và bám dính tốt vào răng.</li>
+	<li>Hạn chế ăn các loại đồ ăn quá cứng cần lực nhau lớn. Bởi những loại đồ ăn này sẽ ảnh hưởng ít nhiều đến vùng trám răng.</li>
+	<li>Vệ sinh răng miệng sạch sẽ, nên chải răng 2 lần/ngày. Đồng thời, lựa chọn các loại bàn chải lông mềm, thực hiện chải răng nhẹ nhàng, kết hợp sử dụng nước muối sinh lý, chỉ tơ nha khoa để vệ sinh răng, tránh vi khuẩn sinh sôi.</li>
+	<li>Sau khi hàn trám răng, nếu có bất kỳ dấu hiệu như ê buốt, vết trám bong tróc&hellip; bạn cần đến nha khoa để xử lý kịp thời.</li>
+	<li>Thực hiện thăm khám răng miệng định kỳ 6 tháng/lần để bác sĩ kiểm tra sức khỏe răng miệng tổng quát cũng như kiểm soát tình trạng hàn trám.</li>
+</ul>
+</div></div>
+                                </div></div>   
+                         </div><div class="product_content">
+                            <div class="container"><div class="row">
+                                    <div class="col-sm-6"><div class="content"><h2 dir="ltr">Bảng giá hàn trám răng bao nhiêu?</h2>
+
+<p>Chi phí trám răng luôn là mối quan tâm của nhiều người. Hiện nay mỗi cơ sở nha khoa sẽ cung cấp mức giá khác nhau, điều này phụ thuộc vào các yếu tố như vật liệu trám, trang thiết bị máy móc, tay nghề bác sĩ&hellip;<br />
+<br />
+Tại nha khoa Win Smile, chúng tôi cung cấp mức giá hàn trám răng với giá tốt nhất, giúp mọi khách hàng đều có thể thực hiện nhằm khắc phục khuyết điểm răng, cụ thể giá như sau:<br />
+<br />
+Hàn răng sữa: 200.000 đồng/răng<br />
+Hàn cổ răng: 300.000 &ndash; 500.000 đồng/răng<br />
+Hàn răng sâu: 300.000/răng<br />
+Hàn thẩm mỹ: 500.000 &ndash; 1.000.000 đồng/răng</p>
+
+<p>&nbsp;</p>
+</div></div>
+                                    <div class="col-sm-6"><div class="image"><img src="/public/files/upload/default/images/dich-vu-nha-khoa/Han-Tram-Rang/7.jpg"></div></div>
+                                </div></div>   
+                         </div><div class="product_content" style="background-color: #f7f7f7;">
+                            <div class="container"><div class="row">
+                                    <div class="col-sm-6"><div class="image"><img src="/public/files/upload/default/images/dich-vu-nha-khoa/Han-Tram-Rang/8.jpg"></div></div>
+                                    <div class="col-sm-6"><div class="content"><h2 dir="ltr">Địa chỉ hàn trám răng uy tín nhất hiện nay</h2>
+
+<p>Với rất nhiều các địa chỉ nha khoa khác nhau, Win Smile tự hào mang đến cho bạn dịch vụ hàn trám răng chất lượng, an toàn.<br />
+<br />
+Khi đến với chúng tôi, bạn sẽ được đội ngũ bác sĩ chuyên sâu trực tiếp thăm khám, chỉ định phương pháp cũng như thực hiện, từ đó, đảm bảo răng được sát khít, đáp ứng tính thẩm mỹ cao.<br />
+<br />
+Nha khoa Win Smile cũng áp dụng công nghệ hiện đại vào hàn trám, điển hình công nghệ laser giúp vị trí hàn chắc chắn, duy trì tuổi thọ lâu dài.<br />
+<br />
+Đặc biệt, khi đến với nha khoa thẩm mỹ Quốc tế Win Smile, bạn cũng sẽ được trải nghiệm dịch vụ với cơ sở vật chất khang trang, đạt chuẩn 5 sao, phòng ốc, dụng cụ đảm bảo vô trùng tuyệt đối. Mỗi bệnh nhân sẽ có một bộ dung cụ riêng, tránh tình trang vi khuẩn xâm nhập, lây nhiễm chéo.<br />
+<br />
+Do đó, nếu bạn đang phân vân tìm kiếm địa chỉ hàn trám răng uy tín, nha khoa Win Smile sẽ là địa chỉ tin cậy cho bạn và những người thân trong gia đình.</p>
+</div></div>
+                                </div></div>   
+                         </div><div class="product_content">
+                            <div class="container"><div class="row"><div class="col-sm-12"><div class="content"><h2>Câu hỏi thường gặp khi hàn trám răng</h2>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li dir="ltr">
+	<p dir="ltr"><strong>Hàn trám răng là gì?</strong></p>
+
+	<ul>
+		<li>
+		<p dir="ltr">Hàn trám răng là kỹ thuật sử dụng các vật liệu chuyên dụng nha để lấp &nbsp;khoảng trống ở phần mô răng bị khuyết do nhiều nguyên nhân gây nên.&nbsp;</p>
+		</li>
+	</ul>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr"><strong>Hàn trám răng lâu ngày có bị bung hay bị nứt vỡ không?</strong></p>
+
+	<ul>
+		<li>
+		<p dir="ltr">Trung bình, tuổi thọ hàn trám răng sẽ khoảng từ 10-15 năm, sau giai đoạn này, mối hàn có thể bị nứt vỡ nếu không được chăm sóc và vệ sinh đúng cách.</p>
+		</li>
+	</ul>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr"><strong>Hàn trám răng đau không?</strong></p>
+
+	<ul>
+		<li>
+		<p dir="ltr">Tùy vào tình trạng răng sẽ quyết định trám răng đau không. Nếu răng bị sâu nhẹ, quá trình thực hiện sẽ diễn ra nhanh chóng, không hề đau đớn, khó chịu. Nếu sâu nặng, răng mẻ lớn ảnh hưởng đến tủy, bác sĩ buộc vào điều trị tủy rồi mới thực hiện hàn trám. Do đó, bạn sẽ có cảm giác đau. Tuy nhiên cũng đừng lo lắng quá bởi bạn sẽ được bác sĩ tiêm tê và chỉ định uống giảm đau nếu cần thiết.</p>
+		</li>
+	</ul>
+	</li>
+	<li dir="ltr">
+	<p dir="ltr"><strong>Răng bị sứt mẻ, sâu lâu ngày có hàn trám được không?</strong></p>
+
+	<ul>
+		<li>
+		<p dir="ltr">Răng sứt mẻ lâu ngày hoàn toàn có thể hàn trám răng. Tuy nhiên, để biết chính xác về tình trạng, mức độ răng miệng hiện tại, bạn nên đến nha khoa uy tín để được thăm khám.<br />
+		Hàn trám răng là giải pháp phục hình thẩm mỹ đơn giản nhưng lại được ưa chuộng bởi những lợi ích mang lại. Nếu đang sở hữu hàm răng không mấy hoàn hảo, liên hệ ngay với nha khoa Win Smile theo số hotline 0966688234 để được hỗ trợ!</p>
+		</li>
+	</ul>
+	</li>
+</ul>
+</div></div></div></div>   
+                         </div>	</div>
+</div>
+
+
+
+
+              	</div>
+              	<div class="col-sm-3 col-sm-pull-9">
+              	    
+<div class="box_support" id="box_support">
+                    <div class="box_title"><div class="title">Hỗ trợ trực tuyến</div></div>
+                    <div class="box_content">
+            		    
+            <div class="item">
+                <div class="name"><i class="fa fa-user" aria-hidden="true"></i> Hỗ trợ trực tuyến 24/7</div>
+                <div class="phone"><i class="fas fa-mobile-alt"></i> 0966 688 234 - 0977 688 234</div>
+                <div class="zalo"><i class="far fa-zalo">Z</i> 0966 688 234 - 0977 688 234</div>
+                <div class="email"><i class="far fa-envelope"></i> </div>
+            </div>
+                    </div>
+                </div>              	</div>
+            </div>
+        </div>
+    </div>
+    <div class="box_book" id="box_book">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 hidden-xs">
+                <img class="image" src="/public/template/frontend/img/book.png">
+            </div>
+            <div class="col-sm-7 col-xs-12">
+                <div class="box_wrap">
+                    <div class="box_title">Đặt lịch khám tại WinSmile</div>
+                    <div class="box_content">
+                        <form name="frmBook" id="frmBook">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group" id="input-name">
+                                        <input type="text" name="name" class="form-control" placeholder="Họ tên khách hàng *">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group" id="input-phone">
+                                        <input type="text" name="phone" class="form-control" placeholder="Số điện thoại liên hệ *">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group" id="input-day">
+                                        <input type="text" name="day" class="form-control datepicker" placeholder="Ngày đặt lịch *">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group" id="input-location">
+                                        <select name="location" class="form-control">
+                                            <option value="">Chọn cơ sở gần bạn *</option>
+                                            <option value="WinSmile Hà Nội">WinSmile Hà Nội</option><option value="WinSmile Hồ Chí Minh">WinSmile Hồ Chí Minh</option>                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="note">* Thông tin của bạn sẽ được bảo mật!</div>
+                                    <div class="btnSuccess">
+                                        <input type="hidden" name="form_id" value="1574996192843n19215gc8">
+                                        <div class="control">
+                                            <a href="javascript:;" onclick="javascript:formRegister('frmBook');" class="btn_yellow submit">Đặt lịch</a>
+                                            <span class="open">Giờ làm việc: <br><span>8h00 đến 20h00</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="box_tuvan hidden-xs" id="box_tuvan">
+    <div class="box_content">
+        <div class="col col-1">
+            <img class="image" src="/public/template/frontend/img/icon_17.png">
+            <div>Đăng</div>
+            <div>Ký</div>
+            <div>Nhận</div>
+            <div>Tư</div>
+            <div>Vấn</div>
+        </div>
+        <div class="col col-2">
+            <form name="frmTuvan" id="frmTuvan">
+                <div class="form-group" id="input-name">
+                    <input type="text" name="name" class="form-control" placeholder="Họ tên khách hàng *">
+                </div>
+                <div class="form-group" id="input-phone">
+                    <input type="text" name="phone" class="form-control" placeholder="Số điện thoại liên hệ *">
+                </div>
+                <div class="form-group" id="input-email">
+                    <input type="text" name="email" class="form-control" placeholder="Email liên hệ *">
+                </div>
+                <div class="form-group" id="input-location">
+                    <select name="location" class="form-control">
+                        <option value="">Chọn cơ sở gần bạn *</option>
+                        <option value="WinSmile Hà Nội">WinSmile Hà Nội</option><option value="WinSmile Hồ Chí Minh">WinSmile Hồ Chí Minh</option>                    </select>
+                </div>
+                <input type="hidden" name="form_id" value="1575130813q7ja36311m0f">
+            </form>
+        </div>
+        <div class="col col-3" onclick="javascript:formRegister('frmTuvan');">
+            <div class="btnSuccess">
+                <img class="image" src="/public/template/frontend/img/icon_18.png">
+                <div>Gửi</div>
+            </div>
+        </div>
+    </div>
+</div><div class="box_footer">
+    <div class="container">
+        <div class="logo">
+            <img src="/public/files/upload/default/images/he-thong/logo.png">
+        </div>
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="box_title">Win Smile Lê Duẩn</div>
+                <div class="box_content">
+                    <p>Địa chỉ: 51B L&ecirc; Duẩn, Ho&agrave;n Kiếm, H&agrave; Nội<br />
+Điện thoại: 0966.688.234</p>
+                </div>
+                <div class="box_title">Nha khoa thẩm mỹ Quốc tế Win Smile</div>
+                <div class="box_content">
+                    <p>T&ecirc;n tiếng Việt: C&Ocirc;NG TY CỔ PHẦN NHA KHOA QUỐC TẾ WIN SMILE</p>
+
+<p>T&ecirc;n tiếng Anh: WINSMILE INTERNATIONAL DENTISTRY JOINT STOCK COMPANY</p>
+
+<p>T&ecirc;n c&ocirc;ng ty viết tắt: WINSMILE.,JSC</p>
+
+<p>Địa chỉ trụ sở ch&iacute;nh: Số 53 đường L&ecirc; Duẩn, Phường Cửa Nam, Quận Ho&agrave;n Kiếm, Th&agrave;nh Phố H&agrave; Nội.</p>
+
+<p>M&aacute;y b&agrave;n: 02485828688</p>
+
+<p>M&atilde; số doanh nghiệp: 0109641393</p>
+
+<p>Người đại diện: B&Ugrave;I B&Iacute;CH UY&Ecirc;N</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="box_title">Hotline</div>
+                <div class="box_content">
+                    <div class="hotline">0966 688 234</div>
+                </div>
+                <div class="box_title">Liên kết</div>
+                <div class="box_content">
+                    <div class="box_menuFooter"><ul><li data-level="2" data-max="2" data-key=""><a href="/ve-winsmile" target="_self" class=""><span class="title">Về WinSmile</span></a></li><li data-level="2" data-max="2" data-key=""><a href="/blog" target="_self" class=""><span class="title">Blog</span></a></li><li data-level="2" data-max="2" data-key=""><a href="/cam-nhan-khach-hang" target="_self" class=""><span class="title">Cảm nhận khách hàng</span></a></li><li data-level="2" data-max="2" data-key=""><a href="/lien-he" target="_self" class=""><span class="title">Liên hệ</span></a></li></ul></div>                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="box_content">
+                    <div class="box_page">
+    <div class="fb-page" data-href="https://www.facebook.com/nhakhoaquoctewinsmile" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+</div>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box_copyright">
+    <div class="container">
+        Bản quyền thuộc về Win Smile. All Rights Reserved @2019    </div>
+</div>
+<div class="box_cart hidden" id="box_cart">
+    <a href="/product/cart/"><i class="fa fa-shopping-cart"></i> <span class="cart_amount">0</span></a>
+</div>
+<div class="box_controls_mobile hidden hidden-sm hidden-md hidden-lg" id="box_controls_mobile">
+    <div class="wrap">
+        <a href="javascript:;" class="btn_register">Đăng ký ngay</a>
+        <a href="tel:0966688234" class="btn_hotline">Gọi tư vấn</a>
+    </div>
+</div>
+<div class="menu-mobile-footer hidden-sm hidden-md hidden-lg">
+    <a class="item" href="https://zalo.me/0966688234"><i class="icon icon-zalo"></i><span class="text">Zalo</span></a>
+    <a class="item" href="https://m.me/nhakhoaquoctewinsmile"><i class="icon icon-messenger"></i><span class="text">Messenger</span></a>
+    <a class="item" href="tel:0966688234"><i class="icon icon-hotline"></i><span class="text">Gọi điện</span></a>
+    <a class="item" href="sms:0966688234"><i class="icon icon-sms"></i><span class="text">SMS</span></a>
+    <a class="item" href="javascript:;" onclick="$('html').animate({ scrollTop: 0 }, 'slow');"><i class="icon icon-top"></i><span class="text">Lên đầu</span></a>
+</div>
+<div class="box_popup_tuvan" id="box_popup_tuvan">
+    <div class="wrap">
+        <div class="cover"><img src="/public/files/upload/default/images/he-thong/logo-white.png"></div>
+        <div class="content">
+            <form name="frmTuvanPopup" id="frmTuvanPopup">
+                <div class="form-group" id="input-name">
+                    <input type="text" name="name" class="form-control" placeholder="Họ tên khách hàng *">
+                </div>
+                <div class="form-group" id="input-phone">
+                    <input type="text" name="phone" class="form-control" placeholder="Số điện thoại *">
+                </div>
+                <div class="form-group" id="input-email">
+                    <input type="text" name="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group" id="input-content">
+                    <textarea type="text" name="content" class="form-control" placeholder="Nhu cầu tư vấn"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="form-control btn_submit" onclick="javascript:formRegister('frmTuvanPopup');">Hoàn thành</button>
+                </div>
+                <div class="form-group">
+                    <div class="hotline">Hotline tư vấn: <a href="tel:0966688234">0966 688 234</a></div>
+                </div>
+                <div class="form-group">
+                    <div class="text">Đăng ký tư vấn miễn phí!</div>
+                </div>
+                <input type="hidden" name="form_id" value="1575130813q7ja36311m0f">
+            </form>
+        </div>
+        <span class="close_popup" onclick="$('#box_popup_tuvan').hide();"></span>
+    </div>
+</div>
+    
+    <script type="text/javascript" src="/public/template/frontend/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="/public/template/frontend/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/public/template/frontend/plugins/fancybox/source/jquery.fancybox.js"></script>
+<script type="text/javascript" src="/public/template/frontend/plugins/fancybox/source/jquery.fancybox-thumbs.js"></script>
+<script type="text/javascript" src="/public/template/frontend/plugins/bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/public/template/frontend/plugins/hover-dropdown.js"></script>
+<script type="text/javascript" src="/public/template/frontend/plugins/numeric.min.js"></script>
+<script type="text/javascript" src="/public/template/frontend/js/app.js"></script>
+<script type="text/javascript" src="/public/template/frontend/js/me.js?v=03042023084257"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		App.init();
+	});
+</script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-641974303bad391a"></script>
+
+<script type="text/javascript">
+    //<!--
+    if($('.product_content .content ul li ul').length > 0) {
+    $('.product_content .content ul li ul').css({display: 'none'});
+    var parent = $('.product_content .content ul li ul').parents('ul').addClass('tabs_dropdown');
+    $('li:first', parent).addClass('active');
+    $('li:first ul', parent).css({display: 'block'});
+    $(parent).parents('.product_content').css({padding: '0'});
+    $('li', parent).click(function() {
+        $('li', $(this).parent()).removeClass('active');
+        $(this).addClass('active');
+        $('ul', $(this).parent()).slideUp();
+        $('ul', this).slideDown();
+    });
+}
+
+    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+        $('#menu_toggle').click(function() {
+        let menu = '';
+        $('.box_menuMain2').each(function() {
+            menu += $(this).html();
+        });
+        menu += $('.box_top .box_search').html();
+        let xhtml = '<div class="bg_menu_mobile" onclick="close_menu_mobile()"></div><div class="box_menuMobile">'+ menu +'</div>';
+        $('body').append(xhtml);
+    });
+
+    function close_menu_mobile() {
+        $('.bg_menu_mobile').remove();
+        $('.box_menuMobile').remove();
+    }
+
+    $('.box_menuMain2>ul>li').each(function() {
+        var level = 1;
+        if($('ul', this).length > 0) {
+            $(this).append('<i class="far fa-chevron-down" onclick="$(\'>.dropdown_wrap\', $(this).toggleClass(\'fa-chevron-down fa-chevron-up\').parent()).slideToggle();"></i>');
+        }
+        $('ul>li', this).each(function() {
+            if($('ul', this).length > 0) {
+                level = 2;
+            }
+        });
+        $(this).addClass('level_' + level);
+    });
+
+    $(document).ready(function() {
+        $('#box_menuMain .header .toggle').click(function() {
+            var xhtmlMenu = $('#box_menuMain .menu').html();
+            $('body').append('<div class="box_menuMobile">'+ xhtmlMenu +'</div>');
+            $('body').append('<div class="bg_menu_mobile" onclick="close_menu_mobile()"></div>');
+        });
+    });
+
+    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    	$(document).ready(function() {
+	    $("#box_category ul li.seletced").parents("li").addClass("selected active");
+		$("#box_category ul li.dropdown>a").click(function() {
+		    $("li", $(this).parent().parent()).removeClass('active');
+		    $($(this).parent()).addClass('active');
+		    $(">li ul.children", $(this).parent().parent()).slideUp();
+		    $('>ul.children:first', $(this).parent()).slideDown();
+		});
+	});
+
+    //-->
+</script>    <script>
+    function addCart(id) {
+        var number = 1;
+        if($('input[name="number"]').size() > 0) {
+            number = parseInt($('input[name="number"]').val());
+        }
+        $.ajax({
+            type: "POST",
+            url: '/product/add-cart/',
+            data: {
+                id: id,
+                number: number
+            },
+            dataType: "json",
+            cache: false,
+            beforeSend: function() {
+                $('body').append('<div class="submit_loading"></div>');
+            },
+            success: function(result){
+                $('#myModal').remove();
+                var xhtml = '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">' +
+                                '<div class="modal-dialog" role="document">' +
+                                    '<div class="modal-content">' +
+                                        '<div class="modal-header">' +
+                                            '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
+                                            '<h4 class="modal-title" id="myModalLabel">Thông báo</h4>' +
+                                        '</div>' +
+                                        '<div class="modal-body">' +
+                                            'Sản phẩm đã được thêm vào giỏ hàng thành công' +
+                                        '</div>' +
+                                        '<div class="modal-footer">' +
+                                            '<button type="button" class="btn btn-default" data-dismiss="modal">Tiếp tục đặt hàng</button>' +
+                                            '<a href="/product/cart/" class="btn btn-success">Xem giỏ hàng <b class="text-red">('+ result.total_amount +')</b></a>' +
+                                        '</div>' +
+                                    '</div>' +
+                                '</div>' +
+                            '</div>';
+
+                $('.submit_loading').remove();
+                $('body').append(xhtml);
+                $('#myModal').modal('show');
+                viewCart();
+            }
+        });
+    }
+</script>
+</body>
+</html>
