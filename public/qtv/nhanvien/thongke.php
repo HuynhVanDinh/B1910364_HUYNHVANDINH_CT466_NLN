@@ -9,39 +9,35 @@ $biennhan = new Benhnhan($PDO);
 
 $bienlai_list = [];
 // Kiểm tra xem ngày bắt đầu và kết thúc đã được truyền vào hay chưa
-if (isset($_GET['time-range'])) {
+if (isset($_POST['time-range'])) {
     // Nếu thống kê theo khoảng ngày
-    if ($_GET['time-range'] === 'by-day') {
-        $start_date = $_GET['start_date'];
-        $end_date = $_GET['end_date'];
+    if ($_POST['time-range'] === 'by-day') {
+        $start_date = $_POST['start_date'];
+        $end_date = $_POST['end_date'];
         // Kiểm tra ngày bắt đầu và kết thúc phải hợp lệ và khác nhau
         if (strtotime($start_date) !== false && strtotime($end_date) !== false && $start_date <= $end_date) {
             // Truy vấn cơ sở dữ liệu để lấy danh sách các biên lai trong khoảng thời gian được chỉ định
+            
             $bienlai_list = $bienlai->bienlai_by_date_range($start_date, $end_date);
-        
-                                $ID_bienlai = $bienlai->getMaBl();
-                                $ngay = $bienlai->ngaythu;
-                                $tongtien= $bienlai->tongtien;
-                                $bn = $biennhan->find($bienlai->id_benhnhan);
             // Tính tổng số tiền từ danh sách các biên lai
             // $total_amount = 0;
             // foreach ($bienlai_list as $bienlai) {
             //     // var_dump($bienlai_list); // output the type of $bienlai
             //     $total_amount = $total_amount + $bienlai['tongtien'];
             // }
+            
         } else {
+            echo '<script>alert("Ngày bắt đầu và kết thúc không hợp lệ!");</script>';
+            echo '<script>window.location.href= "thongke.php";</script>';
             // Nếu ngày không hợp lệ hoặc trùng nhau, thông báo lỗi
-            echo "Ngày bắt đầu và kết thúc không hợp lệ!";
+            // echo "Ngày bắt đầu và kết thúc không hợp lệ!";
         }
     }
-    if ($_GET['time-range'] === 'by-year') {
-        $year = $_GET['year'];
+    if ($_POST['time-range'] === 'by-year') {
+        $year = $_POST['year'];
         $bienlai_list = $bienlai->bienlai_by_year($year);
-        $ID_bienlai = $bienlai->getMaBl();
-                                $ngay = $bienlai->ngaythu;
-                                $tongtien= $bienlai->tongtien;
-                                $bn = $biennhan->find($bienlai->id_benhnhan);
-    }
+        }
+    
 }
 ?>
 
@@ -139,7 +135,7 @@ if (isset($_GET['time-range'])) {
                         <h2 class="text-center">Thống kê danh thu</h2>
                     </div>
                     <div class="container">
-                        <form method="get">
+                        <form method="post" action="thongke.php">
                             <div class="row">
                                 <div class="col-lg-2">
                                     <div class="form-group">
@@ -196,21 +192,27 @@ if (isset($_GET['time-range'])) {
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php foreach ($bienlai_list as $bienlai) :
-                             
-                        ?>
+
+                                <?php
+                                $total_amount = 0;
+                                 foreach ($bienlai_list as $bienlai):;
+                                $total_amount = $total_amount + $bienlai->tongtien;
+                                 $ID_bienlai = $bienlai->getMaBl();
+                                $ngay = $bienlai->ngaythu;
+                                    $tongtien= $bienlai->tongtien;
+                                    $bn = $biennhan->find($bienlai->id_benhnhan);
+                                 ?>
                                 <tr>
+
                                     <td><?= htmlspecialchars($ID_bienlai) ?></td>
                                     <td><?= htmlspecialchars($ngay) ?></td>
                                     <td><?= htmlspecialchars($tongtien) ?></td>
-                                    <!-- <td>
-                                        <a
-                                            href="chi-tiet-thanh-toan.php?id=<?php echo htmlspecialchars($bienlai->id_benhnhan);?>&ma_bl=<?php echo htmlspecialchars($bienlai->getMaBl());?>">Xem
-                                            chi tiết</a>
-                                    </td> -->
                                 </tr>
                                 <?php endforeach; ?>
                         </table>
+                        <div class="float-right mt-5">
+                            <h4>Tổng chi phí: <?php echo $total_amount?> VNĐ</h4>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -33,21 +33,29 @@ $dm_phieukham = $phieukham->bl_ctt($_GET['ma_bl']);
 
 <body>
     <div class="container mt-3">
-        <div class="float-left">
-            <p>Ngày khám: <br><?php echo htmlspecialchars($bienlai->find($_GET['ma_bl'])->ngaythu)?></p>
-        </div>
-        <div class="float-right" onclick="inHoaDon()">
-            <p>In hoá đơn</p>
-        </div>
-        <div class="text-center">
-            <h5 class="text-primary">NHA KHOA WIN SMILE</h5>
-            <h6>
-                <p>Địa chỉ: abc, đường 3/2, q.Ninh Kiều, tp.Cần Thơ</p>
-            </h6>
-            <h6>Giờ mở cửa: <strong class="number">8h00 - 20h00</strong></h6>
-            <h6>Hà Nội: <strong class="number">0371234567</strong> | TP.Hồ Chí Minh: <strong
-                    class="number">0377654321</strong></h6>
-            <h2 class="text-primary">HOÁ ĐƠN KHÁM BỆNH</h2>
+        <div class="row">
+            <div class="col-3">
+                <div class="float-left">
+                    <p>Ngày khám: <br><?php echo htmlspecialchars($bienlai->find($_GET['ma_bl'])->ngaythu)?></p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="text-center">
+                    <h5 class="text-primary">NHA KHOA WIN SMILE</h5>
+                    <h6>
+                        <p>Địa chỉ: abc, đường 3/2, q.Ninh Kiều, tp.Cần Thơ</p>
+                    </h6>
+                    <h6>Giờ mở cửa: <strong class="number">8h00 - 20h00</strong></h6>
+                    <h6>Hà Nội: <strong class="number">0371234567</strong> | TP.Hồ Chí Minh: <strong
+                            class="number">0377654321</strong></h6>
+                    <h2 class="text-primary">HOÁ ĐƠN KHÁM BỆNH</h2>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="float-right" onclick="inHoaDon()">
+                    <p>In hoá đơn</p>
+                </div>
+            </div>
         </div>
         <div class="float-right">
             <p>Số: 000<?php echo $_GET['ma_bl']?></p>

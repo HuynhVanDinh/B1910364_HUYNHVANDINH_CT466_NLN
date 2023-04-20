@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'admin/nhakhoa',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '4c7797819d2338728a4e129f0f70cfff9abc738a',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'admin/nhakhoa' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '4c7797819d2338728a4e129f0f70cfff9abc738a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

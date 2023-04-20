@@ -1,4 +1,9 @@
 let myChart = document.getElementById("myChart").getContext("2d");
+const ngayKhamDataElement = document.querySelector("#month");
+const dttDataElement = document.querySelector("#doanhthuthang");
+// Lấy dữ liệu về ngày khám từ phần tử HTML data-ngaykham
+const redDates = JSON.parse(ngayKhamDataElement.dataset.month);
+const redDtt = JSON.parse(dttDataElement.dataset.dtt);
 // Global Options
 Chart.defaults.global.defaultFontFamily = "Lato";
 Chart.defaults.global.defaultFontSize = 18;
@@ -7,11 +12,11 @@ Chart.defaults.global.defaultFontColor = "#777";
 let massPopChart = new Chart(myChart, {
   type: "bar", // bar, horizontalBar, pie, line, doughnut, radar, polarArea
   data: {
-    labels: ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6"],
+    labels: redDates,
     datasets: [
       {
         label: "Tổng doanh thu",
-        data: [617594, 181045, 153060, 106519, 105162, 95072],
+        data: redDtt,
         //backgroundColor:'green',
         backgroundColor: [
           "rgba(255, 99, 132, 0.6)",
@@ -32,7 +37,7 @@ let massPopChart = new Chart(myChart, {
   options: {
     title: {
       display: true,
-      text: "Doanh thu trong 6 tháng",
+      text: "Doanh thu trong 12 tháng",
       fontSize: 25,
     },
     legend: {

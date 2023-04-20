@@ -216,28 +216,58 @@ class Bienlai
 	}
 	
 	public function bienlai_by_date_range($start_date, $end_date){
+		$bien_lai = [];
 		$start_date = date('Y-m-d', strtotime($start_date));
 		$end_date = date('Y-m-d', strtotime($end_date));
-		$stmt = $this->db->prepare('SELECT * FROM bienlai WHERE ngaythu >= :start_date AND ngaythu <= :end_date');
+		$stmt = $this->db->prepare('SELECT * FROM bienlai WHERE (ngaythu BETWEEN :start_date AND :end_date) AND tinhtrang = 1');
 		$stmt->execute(['start_date' => $start_date, 'end_date' => $end_date]);
-		if($row = $stmt->fetch()) {
-			$this->fillFromDB($row);
-			// var_dump($this);
-			return $this;
-		} else {
-			return null;
-		}
+		while ($row = $stmt->fetch()) {
+			$bienlai = new Bienlai($this->db);
+			$bienlai->fillFromDB($row);
+			$bien_lai[] = $bienlai;
+		} return $bien_lai;
+		// if($row = $stmt->fetch()) {
+		// 	$this->fillFromDB($row);
+		// 	// var_dump($this);
+		// 	return $this;
+		// } else {
+		// 	return null;
+		// }
+		// while ($row = $stmt->fetch()) {
+		// 	$bien_lai = new BienLai;
+		// 	$bien_lai->fillFromDB($row);
+		// 	$dsbl[] = $bien_lai;
+		// }
+		// return $dsbl;
 	}
 	public function bienlai_by_year($year){
+		$bien_lai = [];
 		$stmt = $this->db->prepare('SELECT * FROM bienlai WHERE YEAR(ngaythu) = :year');
 		$stmt->execute(['year' => $year]);
-		if($row = $stmt->fetch()) {
-			$this->fillFromDB($row);
-			// var_dump($this);
-			return $this;
-		} else {
-			return null;
-		}
+		while ($row = $stmt->fetch()) {
+			$bienlai = new Bienlai($this->db);
+			$bienlai->fillFromDB($row);
+			$bien_lai[] = $bienlai;
+		} return $bien_lai;
+		// if($row = $stmt->fetch()) {
+		// 	$this->fillFromDB($row);
+		// 	// var_dump($this);
+		// 	return $this;
+		// } else {
+		// 	return null;
+		// }
+	}
+
+	public function getBienLaiofMonth($month, $year)
+	{
+		$bien_lai = [];
+		$stmt = $this->db->prepare('SELECT * FROM bienlai WHERE MONTH(ngaythu) = :month AND YEAR(ngaythu) = :year');
+		$stmt->execute(['month' => $month, 'year' => $year]);
+		while ($row = $stmt->fetch()) {
+			$bienlai = new Bienlai($this->db);
+			$bienlai->fillFromDB($row);
+			$bien_lai[] = $bienlai;
+		} return $bien_lai;
 	}
 
 

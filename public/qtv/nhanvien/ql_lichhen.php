@@ -214,7 +214,10 @@ $user->find($ID_nhanvien);
                                 <?php foreach($benh_nhan as $benhnhan): ?>
                                 <option value="<?=htmlspecialchars($benhnhan->getMaBN())?>">
                                     <?=htmlspecialchars($benhnhan->hoten)?></option>
+
                                 <?php endforeach ?>
+                                <input hidden type="text" name="sdt" id="sdt" class="form-control"
+                                    value="<?=htmlspecialchars($benhnhan->sdt)?>" readonly>
                             </select>
                             <?php endif;?>
                         </div>

@@ -6,6 +6,7 @@ use ct466\Nhakhoa\Nhasi;
 use ct466\Nhakhoa\Nhanvien;
 use ct466\Nhakhoa\Benhnhan;
 use ct466\Nhakhoa\Benh;
+use ct466\Nhakhoa\Bienlai;
 
 $nhasi = new Nhasi($PDO);
 $nhanvien = new Nhanvien($PDO);
@@ -18,6 +19,39 @@ if (!isset($_SESSION['id_user'])) {
     redirect(BASE_URL_PATH);
 }
 ?>
+<?php
+    $doanhthuThang = [];
+    $bienlaiList = [];
+    $month = [];
+        $bienlai = new Bienlai($PDO);
+        $currentMonth = date('m');
+        $y = date('Y');
+        for ($i = 0; $i <= 11; $i++) { 
+            $doanhthu = 0;
+            $m = $i + 1;
+            $month[] = $m;
+        }
+        $i = 1;
+        foreach ($month as $m) {
+            $bienlaiList[$i] = $bienlai->getBienLaiofMonth($i, $y);
+            if ($bienlaiList[$i] == null) {
+                $doanhthuThang[] = 0;
+            } else {
+            
+        foreach ($bienlaiList as $bien_lai) {
+            $doanhthu = 0;
+                foreach ($bien_lai as $key) {
+                    if (isset($key->tongtien)) {
+                        $doanhthu = $doanhthu + $key->tongtien;
+                    }
+                }
+            }
+            $doanhthuThang[] = $doanhthu;
+        } $i = $i + 1;
+        }
+    $month_json = json_encode($month); 
+    $dtt_json = json_encode($doanhthuThang); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,6 +60,7 @@ if (!isset($_SESSION['id_user'])) {
     include __DIR__."/../partials/header.php";
     ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 
 </head>
@@ -100,6 +135,8 @@ if (!isset($_SESSION['id_user'])) {
                         <canvas id="myChart"></canvas>
                     </div>
                 </div>
+                <div id="month" data-month='<?php echo $month_json; ?>'></div>
+                <div id="doanhthuthang" data-dtt='<?php echo $dtt_json; ?>'></div>
             </div>
         </div>
     </div>
