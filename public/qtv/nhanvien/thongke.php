@@ -18,26 +18,16 @@ if (isset($_POST['time-range'])) {
         if (strtotime($start_date) !== false && strtotime($end_date) !== false && $start_date <= $end_date) {
             // Truy vấn cơ sở dữ liệu để lấy danh sách các biên lai trong khoảng thời gian được chỉ định
             
-            $bienlai_list = $bienlai->bienlai_by_date_range($start_date, $end_date);
-            // Tính tổng số tiền từ danh sách các biên lai
-            // $total_amount = 0;
-            // foreach ($bienlai_list as $bienlai) {
-            //     // var_dump($bienlai_list); // output the type of $bienlai
-            //     $total_amount = $total_amount + $bienlai['tongtien'];
-            // }
-            
+            $bienlai_list = $bienlai->bienlai_by_date_range($start_date, $end_date);        
         } else {
             echo '<script>alert("Ngày bắt đầu và kết thúc không hợp lệ!");</script>';
             echo '<script>window.location.href= "thongke.php";</script>';
-            // Nếu ngày không hợp lệ hoặc trùng nhau, thông báo lỗi
-            // echo "Ngày bắt đầu và kết thúc không hợp lệ!";
         }
     }
     if ($_POST['time-range'] === 'by-year') {
         $year = $_POST['year'];
         $bienlai_list = $bienlai->bienlai_by_year($year);
-        }
-    
+        }  
 }
 ?>
 

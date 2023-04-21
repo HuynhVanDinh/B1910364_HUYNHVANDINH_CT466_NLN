@@ -195,6 +195,27 @@ class Benhnhan{
 			return $this;
 		} return null;
 	}
+	public function find_name($hoten){
+		$benh_nhan = [];
+		$stmt = $this->db->prepare("SELECT * FROM benhnhan WHERE hoten LIKE :hoten");
+		$stmt->execute(['hoten' => "%$hoten%"]);
+		while ($row = $stmt->fetch()) {
+			$benhnhan = new Benhnhan($this->db);
+			$benhnhan->fillFromDB($row);
+			$benh_nhan[] = $benhnhan;
+		} return $benh_nhan;
+	}
+	public function find_cccd($cmnd){
+		$benh_nhan = [];
+		$stmt = $this->db->prepare("SELECT * FROM benhnhan WHERE cmnd LIKE :cmnd");
+		$stmt->execute(['cmnd' => "%$cmnd%"]);
+		while ($row = $stmt->fetch()) {
+			$benhnhan = new Benhnhan($this->db);
+			$benhnhan->fillFromDB($row);
+			$benh_nhan[] = $benhnhan;
+		} return $benh_nhan;
+	}
+
 	public function save()
 	{
 		$result = false;

@@ -30,7 +30,7 @@ $dmlienhe = $lienhe->all();
         <div class="recentCustomers">
             <div id="table">
                 <div class="cardHeader">
-                    <h2>Quản lý các liên hệ</h2>
+                    <h2>Các liên hệ</h2>
                 </div>
                 <table id="tbphanhoi" class="table table-bordered table-striped text-center">
                     <thead class="text-center">

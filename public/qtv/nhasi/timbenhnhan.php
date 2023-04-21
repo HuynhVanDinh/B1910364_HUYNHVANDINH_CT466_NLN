@@ -5,7 +5,25 @@ include __DIR__."/../../../bootstrap.php";
 use ct466\Nhakhoa\Benhnhan;
 $benhnhan = new Benhnhan($PDO);
 
-$benh_nhan = $benhnhan->all();
+if (isset($_POST['search-type'])){
+   $search_type = $_POST['search-type'];
+    $search_value = $_POST['search-value'];
+
+    // Thực hiện truy vấn cơ sở dữ liệu dựa trên kiểu tìm kiếm và giá trị tìm kiếm
+    if ($search_type == 'name') {
+        // echo "hihi";
+        $benh_nhan = $benhnhan->find_name($search_value);
+    // Truy vấn theo tên
+    //   $query = "SELECT * FROM customers WHERE name LIKE '%$search_value%'";
+    } else {
+    // Truy vấn theo CCCD
+    $benh_nhan = $benhnhan->find_cccd($search_value);
+    //   $query = "SELECT * FROM customers WHERE cccd = '$search_value'";
+    } 
+}
+
+
+// $benh_nhan = $benhnhan->all();
 ?>
 
 <!DOCTYPE html>
@@ -95,8 +113,29 @@ $benh_nhan = $benhnhan->all();
             <div class="recentCustomers">
                 <div id="table">
                     <div class="cardHeader">
-                        <h2>Danh sách các bệnh nhân</h2>
+                        <h2 class="text-center">Tìm kiếm bệnh nhân</h2>
                     </div>
+                    <form method="POST" action="">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="search-value" name="search-value"
+                                        placeholder="Nhập giá trị tìm kiếm">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <select class="form-control" id="search-type" name="search-type">
+                                        <option value="name">Tên</option>
+                                        <option value="cccd">CCCD</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+                            </div>
+                        </div>
+                    </form>
                     <table id="benhnhan" class="table table-bordered table-striped text-center">
                         <thead class="text-center">
                             <tr>

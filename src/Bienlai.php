@@ -226,36 +226,16 @@ class Bienlai
 			$bienlai->fillFromDB($row);
 			$bien_lai[] = $bienlai;
 		} return $bien_lai;
-		// if($row = $stmt->fetch()) {
-		// 	$this->fillFromDB($row);
-		// 	// var_dump($this);
-		// 	return $this;
-		// } else {
-		// 	return null;
-		// }
-		// while ($row = $stmt->fetch()) {
-		// 	$bien_lai = new BienLai;
-		// 	$bien_lai->fillFromDB($row);
-		// 	$dsbl[] = $bien_lai;
-		// }
-		// return $dsbl;
 	}
 	public function bienlai_by_year($year){
 		$bien_lai = [];
-		$stmt = $this->db->prepare('SELECT * FROM bienlai WHERE YEAR(ngaythu) = :year');
+		$stmt = $this->db->prepare('SELECT * FROM bienlai WHERE YEAR(ngaythu) = :year AND tinhtrang = 1');
 		$stmt->execute(['year' => $year]);
 		while ($row = $stmt->fetch()) {
 			$bienlai = new Bienlai($this->db);
 			$bienlai->fillFromDB($row);
 			$bien_lai[] = $bienlai;
 		} return $bien_lai;
-		// if($row = $stmt->fetch()) {
-		// 	$this->fillFromDB($row);
-		// 	// var_dump($this);
-		// 	return $this;
-		// } else {
-		// 	return null;
-		// }
 	}
 
 	public function getBienLaiofMonth($month, $year)
