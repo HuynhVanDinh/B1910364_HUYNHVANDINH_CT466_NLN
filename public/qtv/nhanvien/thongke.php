@@ -39,6 +39,11 @@ if (isset($_POST['time-range'])) {
     include __DIR__."/../partials/header.php";
     ?>
     <link rel="stylesheet" href="../admin/assets/css/style.css">
+    <style>
+    .logo {
+        border-radius: 50%;
+    }
+    </style>
 </head>
 
 <body>
@@ -49,7 +54,7 @@ if (isset($_POST['time-range'])) {
                     <a href="../index.php">
                         <span class="icon">
                             <div>
-                                <img class="crounded-circle" src="../../../img/winsmile.jpg" alt="" height="50">
+                                <img class="crounded-circle logo" src="../../../img/winsmile.jpg" alt="" height="50">
                             </div>
                         </span>
                         <span class="title">Win smile</span>

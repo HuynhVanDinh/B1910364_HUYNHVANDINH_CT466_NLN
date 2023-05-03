@@ -58,7 +58,7 @@ class Bienlai
 
 	public function tim_bienlai($id_benhnhan){
 		$bien_lai = [];
-		$stmt = $this->db->prepare('select * from bienlai where id_benhnhan = :id_benhnhan');
+		$stmt = $this->db->prepare('select * from bienlai where id_benhnhan = :id_benhnhan and tinhtrang = 1');
 		$stmt->execute(['id_benhnhan' => $id_benhnhan]);
 		while ($row = $stmt->fetch()) {
 			$bienlai = new Bienlai($this->db);

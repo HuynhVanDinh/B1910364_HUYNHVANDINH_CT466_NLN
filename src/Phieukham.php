@@ -186,7 +186,7 @@ class Phieukham
 	public function all_ctpk_user($id_benhnhan)
 	{
 		$dmphieukham = [];
-		$stmt = $this->db->prepare('select * from phieukham pk inner join ct_phieukham ctpk on pk.ma_pk= ctpk.ma_pk where pk.id_benhnhan = :id_benhnhan');
+		$stmt = $this->db->prepare('select * from phieukham pk inner join ct_phieukham ctpk on pk.ma_pk= ctpk.ma_pk where pk.id_benhnhan = :id_benhnhan and xacnhan = 1');
 		$stmt->execute(['id_benhnhan' => $id_benhnhan]);
 		while ($row = $stmt->fetch()) {
 			$phieukham = new Phieukham($this->db);

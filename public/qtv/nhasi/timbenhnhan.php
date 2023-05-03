@@ -4,7 +4,7 @@ include __DIR__."/../../../bootstrap.php";
 
 use ct466\Nhakhoa\Benhnhan;
 $benhnhan = new Benhnhan($PDO);
-
+$benh_nhan = [];
 if (isset($_POST['search-type'])){
    $search_type = $_POST['search-type'];
     $search_value = $_POST['search-value'];
@@ -48,7 +48,7 @@ if (isset($_POST['search-type'])){
                     <a href="../index.php">
                         <span class="icon">
                             <div>
-                                <img class="crounded-circle" src="../../../img/winsmile.jpg" alt="" height="50">
+                                <img class="crounded-circle logo" src="../../../img/winsmile.jpg" alt="" height="50">
                             </div>
                         </span>
                         <span class="title">Win smile</span>

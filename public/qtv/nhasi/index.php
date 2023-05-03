@@ -39,7 +39,7 @@ $ngaykham_json = json_encode($ngaykham);
                     <a href="../index.php">
                         <span class="icon">
                             <div>
-                                <img class="crounded-circle" src="../../../img/winsmile.jpg" alt="" height="50">
+                                <img class="crounded-circle logo" src="../../../img/winsmile.jpg" alt="" height="50">
                             </div>
                         </span>
                         <span class="title">Win smile</span>

@@ -85,7 +85,7 @@ $user->find($nhanvien->user_id);
                 <li>
                     <a href="thongke.php">
                         <span class="icon">
-                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <ion-icon name="bar-chart-outline"></ion-icon>
                         </span>
                         <span class="title">Thống kê</span>
                     </a>

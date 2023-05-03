@@ -35,6 +35,11 @@ $id_nhanvien = $nhanvien->getMaNV();
     include __DIR__."/../partials/header.php";
     ?>
     <link rel="stylesheet" href="../admin/assets/css/style.css">
+    <style>
+    .logo {
+        border-radius: 50%;
+    }
+    </style>
 </head>
 
 <body>
@@ -45,7 +50,7 @@ $id_nhanvien = $nhanvien->getMaNV();
                     <a href="../index.php">
                         <span class="icon">
                             <div>
-                                <img class="crounded-circle" src="../../../img/winsmile.jpg" alt="" height="50">
+                                <img class="crounded-circle logo" src="../../../img/winsmile.jpg" alt="" height="50">
                             </div>
                         </span>
                         <span class="title">Win smile</span>
@@ -90,7 +95,7 @@ $id_nhanvien = $nhanvien->getMaNV();
                 <li>
                     <a href="thongke.php">
                         <span class="icon">
-                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <ion-icon name="bar-chart-outline"></ion-icon>
                         </span>
                         <span class="title">Thống kê</span>
                     </a>

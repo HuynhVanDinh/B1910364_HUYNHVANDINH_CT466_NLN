@@ -111,13 +111,13 @@
                             <a class="nav-link" href="tintuc.php">Tin tức</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nha sĩ</a>
+                            <a class="nav-link" href="nhasi.php">Nha sĩ</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Về tôi</a>
+                            <a class="nav-link" href="vetoi.php">Về tôi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Liên hệ</a>
+                            <a class="nav-link" href="lienhe.php">Liên hệ</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0" method="POST" action="search.php">
@@ -142,13 +142,13 @@
                         <div class="dropdown-menu shadow-lg">
                             <a href="index.php?dangxuat=1" class="dropdown-item "><i
                                     class="fa-solid fa-right-from-bracket"></i> Đăng xuất</a>
-                            <a href="suataikhoan.php" class="dropdown-item "><i class="fa-solid fa-gear"></i> Lịch sử
+                            <a href="hoadon.php" class="dropdown-item "><i class="fa-solid fa-gear"></i> Lịch sử
                                 hoá đơn</a>
-                            <a href="suataikhoan.php" class="dropdown-item "><i class="fa-solid fa-gear"></i> Lịch sử
+                            <a href="ls_kham.php" class="dropdown-item "><i class="fa-solid fa-gear"></i> Lịch sử
                                 khám</a>
                             <a href="suataikhoan.php" class="dropdown-item "><i class="fa-solid fa-gear"></i> Sửa tài
                                 khoản</a>
-                            <a href="suataikhoan.php" class="dropdown-item "><i class="fa-solid fa-gear"></i> Sửa thông
+                            <a href="suathongtin.php" class="dropdown-item "><i class="fa-solid fa-gear"></i> Sửa thông
                                 tin</a>
 
                         </div>
