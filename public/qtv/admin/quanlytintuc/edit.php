@@ -17,11 +17,9 @@ $errors = [];
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   if ($tt->update($_POST, $_FILES)) {
-    // Cập nhật dữ liệu thành công
-    echo '<script>alert("Cập nhật sản phẩm thành công");</script>';
+    echo '<script>alert("Cập nhật tin tức thành công");</script>';
     echo '<script>window.location.href= "index.php?";</script>';
   }
-  // Cập nhật dữ liệu không thành công
   $errors = $tt->getValidationErrors();
 
 }
@@ -43,7 +41,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 
 <body>
-    <!-- =============== Navigation ================ -->
     <div class="">
         <div class="navigation">
             <ul>
@@ -79,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <li>
                     <a href="../ql_nhanvien.php">
                         <span class="icon">
-                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="person-circle-outline"></ion-icon>
                         </span>
                         <span class="title">Quản lý nhân viên</span>
                     </a>
@@ -97,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <li>
                     <a href="../ql_benh.php">
                         <span class="icon">
-                            <ion-icon name="help-outline"></ion-icon>
+                            <ion-icon name="folder-open-outline"></ion-icon>
                         </span>
                         <span class="title">Quản lý danh mục bệnh</span>
                     </a>
@@ -106,18 +103,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <li>
                     <a href="index.php">
                         <span class="icon">
-                            <ion-icon name="settings-outline"></ion-icon>
+                            <ion-icon name="newspaper-outline"></ion-icon>
                         </span>
                         <span class="title">Quản lý tin tức</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="../quanlytaikhoan">
+                    <a href="../quanlytaikhoan/">
                         <span class="icon">
                             <ion-icon name="lock-closed-outline"></ion-icon>
                         </span>
                         <span class="title">Quản lý tài khoản</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../phanhoi.php">
+                        <span class="icon">
+                            <ion-icon name="chatbubbles"></ion-icon>
+                        </span>
+                        <span class="title">Phản hồi</span>
                     </a>
                 </li>
                 <?php if (isset($_GET['dangxuat']) && $_GET['dangxuat'] == 1) {unset($_SESSION['id_user']); } ?>
@@ -131,8 +136,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </li>
             </ul>
         </div>
-
-        <!-- ========================= Main ==================== -->
         <div class="main">
             <div class="alert alert-primary topbar" role="alert">
                 <div class="toggle">

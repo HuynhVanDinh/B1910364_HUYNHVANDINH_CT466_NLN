@@ -66,7 +66,12 @@ $nhanvien = new Nhanvien($PDO);
                             <td><?php echo $n;
 									$n++; ?></td>
                             <td><?= htmlspecialchars(($nhanvien->find($phieukham->id_nhanvien))->tennv)?></td>
+                            <?php if ($id_nguoithu) {
+                            ?>
                             <td><?= htmlspecialchars(($nhanvien->find($id_nguoithu))->tennv)?></td>
+                            <?php } else {?>
+                            <td>Chưa thanh toán</td>
+                            <?php }?>
                             <td><?= htmlspecialchars(($nhasi->find($phieukham->id_nhasi))->tenns)?></td>
                             <td><?= htmlspecialchars($phieukham->ngay) ?></td>
                             <td><?= htmlspecialchars($bn->hoten) ?></td>

@@ -181,16 +181,18 @@ $user->find($ID_nhanvien);
                         $giohen = $_POST['giohen'];
                         $ghichu = $_POST['ghichu'];
                         $id_benhnhan = $_POST['id_benhnhan'];
-                        $sdt = $_POST['sdt'];
+                        $_POST['sdt'] = $benhnhan->find($id_benhnhan)->sdt;
                         $id_nhasi = $_POST['id_nhasi'];
                         $nhanvien_id = $_SESSION['id_user'];
-                       
                         $lichhen->tao_lichhen($_POST,$nhanvien_id);
                         $errors = $lichhen->getValidationErrors();
                         if (isset($errors['ngayhen'])) {
                             echo '<script>alert("Ngày hẹn phải lớn hơn hoặc bằng ngày hiện tại.");</script>';
                             echo "<script>window.location.href= 'ql_lichhen.php?id=$id_benhnhan';</script>";
-                        }else{
+                        } elseif (isset($errors['giohen'])) {
+                            echo '<script>alert("Giờ hẹn không hợp lệ.");</script>';
+                            echo "<script>window.location.href= 'ql_lichhen.php?id=$id_benhnhan';</script>";
+                        } else{
                             echo '<script>alert("Tạo lịch hẹn thành công !!!.");</script>';
                             echo '<script>window.location.href= "ql_lichhen.php";</script>';
                         }
@@ -219,10 +221,9 @@ $user->find($ID_nhanvien);
                                 <?php foreach($benh_nhan as $benhnhan): ?>
                                 <option value="<?=htmlspecialchars($benhnhan->getMaBN())?>">
                                     <?=htmlspecialchars($benhnhan->hoten)?></option>
-
                                 <?php endforeach ?>
                                 <input hidden type="text" name="sdt" id="sdt" class="form-control"
-                                    value="<?=htmlspecialchars($benhnhan->sdt)?>" readonly>
+                                    value="<?=htmlspecialchars($benhnhan->find($benhnhan->getMaBN())->sdt)?>" readonly>
                             </select>
                             <?php endif;?>
                         </div>

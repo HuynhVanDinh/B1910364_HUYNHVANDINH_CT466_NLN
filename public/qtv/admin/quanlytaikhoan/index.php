@@ -60,7 +60,7 @@ $benh_nhan = $benhnhan->all();
                 <li>
                     <a href="../ql_nhanvien.php">
                         <span class="icon">
-                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="person-circle-outline"></ion-icon>
                         </span>
                         <span class="title">Quản lý nhân viên</span>
                     </a>
@@ -78,7 +78,7 @@ $benh_nhan = $benhnhan->all();
                 <li>
                     <a href="../ql_benh.php">
                         <span class="icon">
-                            <ion-icon name="help-outline"></ion-icon>
+                            <ion-icon name="folder-open-outline"></ion-icon>
                         </span>
                         <span class="title">Quản lý danh mục bệnh</span>
                     </a>
@@ -87,7 +87,7 @@ $benh_nhan = $benhnhan->all();
                 <li>
                     <a href="../quanlytintuc/">
                         <span class="icon">
-                            <ion-icon name="settings-outline"></ion-icon>
+                            <ion-icon name="newspaper-outline"></ion-icon>
                         </span>
                         <span class="title">Quản lý tin tức</span>
                     </a>
@@ -99,6 +99,14 @@ $benh_nhan = $benhnhan->all();
                             <ion-icon name="lock-closed-outline"></ion-icon>
                         </span>
                         <span class="title">Quản lý tài khoản</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../phanhoi.php">
+                        <span class="icon">
+                            <ion-icon name="chatbubbles"></ion-icon>
+                        </span>
+                        <span class="title">Phản hồi</span>
                     </a>
                 </li>
                 <?php if (isset($_GET['dangxuat']) && $_GET['dangxuat'] == 1) {unset($_SESSION['id_user']); } ?>
@@ -155,18 +163,26 @@ $benh_nhan = $benhnhan->all();
                                     <?php
                                 if($benhnhan->trangthai == 1){
                                 ?>
-                                    <form method="get" action="bn_khoa.php" enctype="multipart/form-data">
+                                    <a class="btn-block btn btn-sm btn-danger"
+                                        href="bn_khoa.php?user_id=<?= $ID_benhnhan?>"><i class="fa fa-lock"
+                                            aria-hidden="true">
+                                            Khoá tài khoản</i></a>
+
+                                    <!-- <form method="get" action="bn_khoa.php" enctype="multipart/form-data">
                                         <input hidden type="text" name="user_id" value="<?php echo $ID_benhnhan; ?>">
-                                        <button class=" btn w-100" type="submit"><a class="btn btn-sm btn-danger" ?><i
-                                                    class="fa fa-lock" aria-hidden="true">Khoá tài
-                                                    khoản</i></a></button>
+                                        <button class="btn w-100" type="submit"><a
+                                                class="btn-block btn btn-sm btn-danger" ?><i class="fa fa-lock"
+                                                    aria-hidden="true">Khoá tài
+                                                    khoản</i></a></button> -->
                                     </form>
                                     <?php }elseif($benhnhan->trangthai == 0){ ?>
-                                    <form method="get" action="bn_mo.php" enctype="multipart/form-data">
+                                    <a class="btn btn-sm btn-success" href="bn_mo.php?user_id=<?= $ID_benhnhan?>"><i
+                                            class="fa fa-unlock" aria-hidden="true">Mở khoá</i></a>
+                                    <!-- <form method="get" action="bn_mo.php" enctype="multipart/form-data">
                                         <input hidden type="text" name="user_id" value="<?php echo $ID_benhnhan; ?>">
                                         <button class=" btn w-100" type="submit"><a class="btn btn-sm btn-success" ?><i
                                                     class="fa fa-unlock" aria-hidden="true">Mở khoá</i></a></button>
-                                    </form>
+                                    </form> -->
                                     <?php
                                 }
                                 ?>
@@ -181,9 +197,13 @@ $benh_nhan = $benhnhan->all();
         </div>
     </div>
     </div>
-
+    <?php if (isset($_GET['user_id'])) : ?>
+    <div class="flash-data" data-flashdata="<?= $_GET['user_id'];?>"></div>
+    <?php endif; ?>
     <!-- =========== Scripts =========  -->
     <script src="../assets/js/main.js"></script>
+    <script src="../../../js/sweetalert2.all.min.js"></script>
+    <script src="../../../js/jquery-3.6.3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"> </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>
@@ -198,6 +218,32 @@ $benh_nhan = $benhnhan->all();
             },
         });
     });
+    $('.btn-block').on('click', function(e) {
+        e.preventDefault();
+        const href = $(this).attr('href')
+
+        Swal.fire({
+            title: 'Bạn có muốn khoá tài khoản này?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Khoá',
+            cancelButtonText: 'Huỷ',
+        }).then((result) => {
+            if (result.value) {
+                document.location.href = href;
+            }
+        })
+    })
+
+    const flashdata = $('.flash-data').data('flashdata')
+    if (flashdata) {
+        Swal.fire({
+            icon: 'success',
+            text: 'Khoá tài khoản thành công'
+        })
+    }
     </script>
     <!-- ====== ionicons ======= -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

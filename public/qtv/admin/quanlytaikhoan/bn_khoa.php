@@ -11,8 +11,8 @@ if ($finduser != null) {
 	$array['trangthai'] = $finduser->trangthai;
 	$result = $benhnhan->update1($array);
 	if ($result == true) {
-		echo '<script>alert("Bạn đã khoá tài khoản này.");</script>';
-		echo '<script>window.location.href= "index.php";</script>';
+		// echo '<script>alert("Bạn đã khoá tài khoản này.");</script>';
+		echo "<script>window.location.href= 'index.php?user_id=$id';</script>";
 	} else {
 		echo '<script>alert("Không thể khoá tài khoản này.");</script>';
 		echo '<script>window.location.href= "index.php";</script>';

@@ -105,6 +105,14 @@ $arrtt = $tt->all();
                         <span class="title">Quản lý tài khoản</span>
                     </a>
                 </li>
+                <li>
+                    <a href="../phanhoi.php">
+                        <span class="icon">
+                            <ion-icon name="chatbubbles"></ion-icon>
+                        </span>
+                        <span class="title">Phản hồi</span>
+                    </a>
+                </li>
                 <?php if (isset($_GET['dangxuat']) && $_GET['dangxuat'] == 1) {unset($_SESSION['id_user']); } ?>
                 <li>
                     <a href="../../index.php?dangxuat=1">
@@ -204,9 +212,8 @@ $arrtt = $tt->all();
                                 <td class="ttxoa"><?= htmlspecialchars($tt->tieude) ?></td>
                                 <td><?= $fm->textShorten(htmlspecialchars($tt->noidung),100)?></td>
                                 <td>
-                                    <a class="btn btn-sm btn-danger" id="btn-del"
-                                        href="delete.php?id=<?= $tt->layID()?>"><i class="fa fa-trash"
-                                            aria-hidden="true">
+                                    <a class="btn-del btn btn-sm btn-danger" href="delete.php?id=<?= $tt->layID()?>"><i
+                                            class="fa fa-trash" aria-hidden="true">
                                             XÓA</i></a>
                                     <a id="edit" class="btn btn-sm btn-warning" href="edit.php?id=<?= $tt->layID()?>"><i
                                             class="fa fa-pencil-square-o" aria-hidden="true"> SỬA</i></a>
@@ -241,7 +248,7 @@ $arrtt = $tt->all();
             },
         });
     });
-    $('#btn-del').on('click', function(e) {
+    $('.btn-del').on('click', function(e) {
         e.preventDefault();
         const href = $(this).attr('href')
 

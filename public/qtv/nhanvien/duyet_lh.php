@@ -12,7 +12,7 @@ $ten_benhnhan = $benhnhan->find($lichhen_duyet->find($id_lichhen)->id_benhnhan)-
 //  var_dump($lichhen_duyet);
 // lấy số điện thoại của người nhận từ bảng thông tin khách hàng
  $sdt_nguoinhan = $lichhen_duyet->sdt;
-// var_dump($lichhen_duyet);
+// var_dump($id_lichhen);
 // gửi tin nhắn SMS xác nhận đến số điện thoại của người nhận
 require_once __DIR__."/../../../vendor/autoload.php";
 use Twilio\Rest\Client;

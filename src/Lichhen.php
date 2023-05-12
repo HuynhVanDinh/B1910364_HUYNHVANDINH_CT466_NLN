@@ -56,7 +56,15 @@ class Lichhen
 		} elseif (strtotime($this->ngayhen) < strtotime('today')) {
 			$this->errors['ngayhen'] = 'Ngày hẹn phải lớn hơn hoặc bằng ngày hiện tại';
 		}
-        if (!$this->giohen) {
+        // Lấy thời gian bắt đầu và kết thúc của giờ làm việc
+		$gioLamViecBatDau = strtotime('08:00');
+		$gioLamViecKetThuc = strtotime('17:00');
+
+		// Chuyển giờ hẹn sang định dạng thời gian Unix timestamp
+		$gioHen = strtotime($this->giohen);
+
+		// Kiểm tra nếu giờ hẹn không nằm trong khoảng giờ làm việc
+		if ($gioHen < $gioLamViecBatDau || $gioHen > $gioLamViecKetThuc) {
 			$this->errors['giohen'] = 'Giờ hẹn không hợp lệ.';
 		}
 		if (!$this->ghichu) {
